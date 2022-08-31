@@ -16,6 +16,10 @@ html,body
     /* color: #ffde59; */
     background-color:#CC9933;
 }
+.fluid{
+  max-width: 100%;
+  max-height: 100%;
+}
 .img-fluid{
     height: 65px;
     width: 150px;
@@ -90,7 +94,7 @@ html,body
 
 .mySlides {
   display: none;
-  max-width: 64vw;
+  max-width: 100vw;
   max-height: 100%;
   box-shadow: 0 1rem 3rem rgba(black, .175);
 }
@@ -120,7 +124,7 @@ html,body
 
 .column {
   float: left;
-  width: 16%;
+  width: 20%;
 }
 
 .demo {
