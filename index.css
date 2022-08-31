@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans");
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text');
+body
+{
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.color-initial {
+  color: #787878 !important;
+}
+
+.primary-color{
+    /* color: #ffde59; */
+    background-color:#CC9933;
+}
+.img-fluid{
+    height: 65px;
+    width: 150px;
+}
+.nav-link{
+  font-size: 19px;
+}
+.navHover::after{
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 #ffde59;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 0; 
+}
+.navHover:hover::after{
+    width: 100%;
+}
+.navButton{
+  background: black;
+  color:white;
+  border-color: black;
+}
+.navButton:hover{
+  background:white;
+  color: black;
+  border-color: white;
+}
+.home{
+  background-image: linear-gradient(to top, #fffffd, #fcfbe8, #fbf7d3, #faf2bd, #fbeda7, #fbea9a, #fce68d, #fce37f, #fbe176, #fade6d, #f9dc64, #f8d95b);  max-height: 100vh;
+  margin-top: 90px;
+}
+.fullHeight{
+  height: 100vh;
+}
+.img{
+  background: url(res/home_cp_spec-3.png);
+  background-size: auto 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fontStyle{
+ font-family: "Libre Caslon Text";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-container{
+  padding: 25% 0;
+
+}
+.android-icon{
+  width: 25px;
+  height: 40px;
+}
+.supportedDevices{
+  background: #3DDC84;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+/*CSS for Gallery*/
+* {
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+  max-width: 64vw;
+  max-height: 100%;
+  box-shadow: 0 1rem 3rem rgba(black, .175);
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+  background-image: linear-gradient(to bottom, #fff1b9, #ffefae, #ffeda3, #ffea98, #ffe88d, #ffe686, #ffe57e, #ffe377, #ffe272, #fee16c, #fedf67, #fdde61);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/*CSS for Cards*/
+.card-title{
+font-size: 2em;
+}
+.card-text, .card-title, .section, .fw-bold{
+  font-family: "Libre Caslon Text";
+}
+.card-img-top{
+ max-height: 80%;
+ max-width: 50vw;
+}
+.text-container{
+  padding: 25% 0;
+  height: auto;
+}
+.android-icon{
+  width: 25px;
+  height: 40px;
+}
+.supportedDevices{
+  background: #3DDC84;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.slidesContainer{
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.slidesImg{
+  width: 100%;
+}
+.footer-img{
+  max-width: 200px;
+  max-height: 200px;
+}
