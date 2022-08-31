@@ -4,8 +4,8 @@
 html,body
 {
   font-family: "Ubuntu", sans-serif !important;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .color-initial {
@@ -17,8 +17,8 @@ html,body
     background-color:#CC9933;
 }
 .fluid{
-  max-width: 100%;
-  max-height: 100%;
+ width: 100%;
+  height: 100%;
 }
 .img-fluid{
     height: 65px;
