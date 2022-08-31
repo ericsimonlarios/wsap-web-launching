@@ -11,7 +11,10 @@ html,body
 .color-initial {
   color: #787878 !important;
 }
-
+.fullSize{
+max-width: 100%;
+max-height: 100vh;
+}
 .primary-color{
     /* color: #ffde59; */
     background-color:#CC9933;
@@ -20,8 +23,9 @@ html,body
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
-.img-fluid{
+.logo{
     height: 65px;
     width: 150px;
 }
@@ -52,15 +56,17 @@ html,body
 .home{
   background-image: linear-gradient(to top, #fffffd, #fcfbe8, #fbf7d3, #faf2bd, #fbeda7, #fbea9a, #fce68d, #fce37f, #fbe176, #fade6d, #f9dc64, #f8d95b);  max-height: 100vh;
   margin-top: 90px;
+  max-height: auto;
 }
 .fullHeight{
-  height: 100vh;
+  max-height: 100%;
+}
+.text-primary-color{
+  color: #CC9933;
 }
 .img{
-  background: url(res/home_cp_spec-3.png);
-  background-size: auto 80vh;
-  background-repeat: no-repeat;
-  background-position: center;
+  max-width: 80vw;
+  max-height: 80vh;
 }
 .fontStyle{
  font-family: "Libre Caslon Text";
