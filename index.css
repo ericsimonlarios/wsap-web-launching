@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans");
 @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text');
-body
+html,body
 {
   font-family: "Ubuntu", sans-serif !important;
   max-width: 100vw;
