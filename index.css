@@ -16,9 +16,10 @@ html,body
     /* color: #ffde59; */
     background-color:#CC9933;
 }
-.fluid{
- width: 100%;
+.body-container{
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 .img-fluid{
     height: 65px;
