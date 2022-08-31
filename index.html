@@ -78,20 +78,54 @@
               </div>
           </div>
       </div>
-                <div class= "container mx-auto my-5" id = "gallery">
-                        <div class="mySlides fade mx-auto">
+                <div class= "container mx-auto my-5 carousel slide"  id = "gallery">
+                  <div id="carouselExampleInterval" class="carousel slide carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/gallery/Home.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gallery/Expos.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gallery/Suppliers.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gallery/Planner.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/gallery/More.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                     
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                        <!-- <div class="mySlides fade mx-auto shadow-lg">
                             <img src="images/gallery/Home.png" style="width:100%;">
                         </div>
-                        <div class="mySlides fade mx-auto">
+                        <div class="mySlides fade mx-auto shadow-lg">
                             <img src="images/gallery/Expos.png" style="width:100%">
                         </div>
-                        <div class="mySlides fade mx-auto">
+                        <div class="mySlides fade mx-auto shadow-lg">
                             <img src="images/gallery/Suppliers.png" style="width:100%">
                         </div>
-                        <div class="mySlides fade mx-auto">
+                        <div class="mySlides fade mx-auto shadow-lg">
                               <img src="images/gallery/Planner.png" style="width:100%">
                         </div>
-                        <div class="mySlides fade mx-auto">
+                        <div class="mySlides fade mx-auto shadow-lg">
                               <img src="images/gallery/More.png" style="width:100%">
                         </div>
                          <div class="row justify-content-center">
@@ -110,12 +144,12 @@
                             <div class="column">
                                 <img class="demo cursor" src="images/gallery/More.png" style="width:100%" onclick="currentSlide(5)">
                             </div>
-                        </div>
+                        </div> -->
                 </div>
   
                 <div class="d-flex justify-content-center m-3 p-2" id = "features">
                     <div class="row m-md-auto"  > 
-                            <div class="col-md-auto card my-2 mx-3 justify-content-center" style="width: 22rem;">
+                            <div class="col-md-auto card my-2 mx-3 justify-content-center shadow-lg" style="width: 22rem;">
                                 <img src="res/Discover.png" class="card-img-top mx-auto" alt="Discover">
                                 <div class="card-body">
                                 <ul class="card-text h5">
@@ -126,7 +160,7 @@
                                 </div>
                             </div>
             
-                            <div class="col-md-auto card my-2 mx-3" style="width: 22rem;">
+                            <div class="col-md-auto card my-2 mx-3 shadow-lg" style="width: 22rem;">
                                 <img src="res/Find.png" class="card-img-top mx-auto">
                                 <div class="card-body">
                                 <ul class="card-text h5">
@@ -137,7 +171,7 @@
                                 </div>
                             </div>
             
-                            <div class="col-md-auto card my-2 mx-3" style="width: 22rem;">
+                            <div class="col-md-auto card my-2 mx-3 shadow-lg" style="width: 22rem;">
                                 <img src="res/Plan.png" class="card-img-top mx-auto">
                                 <div class="card-body">
                                     <ul class="card-text h5">
@@ -150,16 +184,16 @@
                     </div>
                 </div>
                 <div class = "container">
-                    <div class="d-flex justify-content-center m-3">
+                    <div class="d-flex justify-content-center m-3 my-5">
                         <div class="mx-auto">
-                        <h4 class="w3-center section" id = "allApps"><b>Check our other applications!</b></h4>
+                        <h4 class="w3-center section" id = "allApps"><b>Check our applications!</b></h4>
                         <div class="row m-md-auto justify-content-center "  > 
-                                <div class="col-md-auto card text-center my-3 mx-3" style="width: 22rem;">
+                                <div class="col-md-auto card shadow-lg text-center my-3 mx-3 py-3" style="width: 22rem;">
                                     <img src="res/ic_wsap.png" class="card-img-top mx-auto">
                                         <div class="card-body">
                                         <span class="card-title">WSAP Mobile App</span>
                                         <p class="card-text">Create your own wedding experience with the WSAP mobile app</p>
-                                        <a href="#" class="appButton mx-auto">Go to Website</a>
+                                        <a href="#home" class="appButton mx-auto">Go to Website</a>
                                         </div>
                                 </div>      
                         </div>
@@ -167,8 +201,8 @@
                 </div>
           
                 <div class="container mx-auto" id = "AboutUs">
-                    <div class="mx-auto">
-                        <h4 class="w3-center section"><b>Behind the application</b></h4>
+                    <div class="mx-auto my-5">
+                        <h4 class="w3-center section"><b>Meet the Creators</b></h4>
                         <div class ="row">
                             <div class = "col-md-6">
                                 <div class="w3-card w3-padding-large m-3">
@@ -260,7 +294,9 @@
                       <div class="col">
                       </div>
                     </div>
+                    
                   </div>
+                  <span class="text-white">zagreus & neku</span> 
                 </footer>    
         </div>
 </body>
@@ -283,7 +319,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 
 //for clicking the slides
