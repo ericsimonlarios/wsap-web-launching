@@ -38,6 +38,9 @@
               <li class="nav-item mx-lg-3 navHover">
                 <a class="nav-link h4 text-dark mb-0" aria-current="page" href="#AboutUs">Get to know us</a>
               </li>
+              <li class="nav-item mx-lg-3 navHover">
+                <a class="nav-link h4 text-dark mb-0" aria-current="page" data-bs-toggle="modal" data-bs-target="#exampleModal">Get QR </a>
+              </li>
               <!-- <li class="nav-item ">
                 <a class="navButton h5 text-dark mb-0">Download</a>     
               </li>   -->
@@ -48,6 +51,28 @@
         </div>
       </nav>
       <div class="body-container">
+        <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+        </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Scan QR to download</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body d-flex justify-content-center">
+                  <img src="res/qrcode_firebasestorage.googleapis.com.png" class="img-fluid qr-img"/>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid home " id = "home">
           <div class="row container mx-auto p-5 px-0">
               <div class="col fullHeight d-flex flex-column justify-content-center my-5">
